@@ -57,6 +57,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .brand-title {
@@ -71,8 +72,67 @@ body {
   height: 48px;
 }
 
+.header-actions-right {
+  flex-shrink: 0;
+  gap: 8px;
+}
+
+.header-action-btn {
+  border: 1px solid #c3cbe0 !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  color: #2a3040 !important;
+}
+
+.header-action-btn:hover {
+  border-color: #b1bbd3 !important;
+  background: #f5f7fb !important;
+}
+
+.header-action-btn .MuiSvgIcon-root {
+  font-size: 1.6rem;
+  color: #334155;
+}
+
+.language-select-wrap {
+  min-width: 74px;
+  margin: 0 !important;
+}
+
+.language-select {
+  height: 46px !important;
+  min-height: 46px !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.language-select .MuiOutlinedInput-notchedOutline {
+  border-color: #c3cbe0 !important;
+}
+
+.language-select .MuiSelect-select {
+  padding: 0 30px 0 12px !important;
+  min-height: 46px !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  color: #2a3040 !important;
+  line-height: 1 !important;
+  box-sizing: border-box !important;
+}
+
+.language-select .MuiSelect-icon {
+  color: #4b556f !important;
+  right: 8px !important;
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+
 .help-entry-btn {
-  min-height: var(--touch-min) !important;
+  min-height: 46px !important;
   border-radius: 999px !important;
   border-color: #c3cbe0 !important;
   color: #2a3040 !important;
@@ -81,6 +141,7 @@ body {
   padding: 0 16px !important;
   text-transform: none !important;
   white-space: nowrap;
+  min-width: 0 !important;
 }
 
 .info-menu-close-row {
@@ -791,10 +852,28 @@ body {
     height: 46px;
   }
 
+  .header-action-btn .MuiSvgIcon-root {
+    font-size: 1.5rem;
+  }
+
   .help-entry-btn {
-    min-height: var(--touch-min) !important;
+    min-height: 46px !important;
     font-size: 0.95rem !important;
-    padding: 0 12px !important;
+    padding: 0 10px !important;
+  }
+
+  .language-select-wrap {
+    min-width: 68px;
+  }
+
+  .language-select .MuiSelect-select {
+    padding: 0 26px 0 10px !important;
+    min-height: 46px !important;
+    font-size: 0.9rem !important;
+  }
+
+  .help-entry-btn .MuiButton-startIcon {
+    margin-right: 6px !important;
   }
 
   .top-tabs-row {
@@ -833,6 +912,15 @@ body {
 }
 
 @media (max-width: 430px) {
+  .help-entry-btn {
+    font-size: 0.9rem !important;
+    padding: 0 8px !important;
+  }
+
+  .help-entry-btn .MuiButton-startIcon {
+    margin-right: 4px !important;
+  }
+
   .class-card {
     flex-direction: column;
     gap: 12px;
@@ -848,6 +936,10 @@ body {
     max-height: 200px;
   }
 }
+
+
+
+
 
 
 
