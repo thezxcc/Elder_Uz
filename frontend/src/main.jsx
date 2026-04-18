@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import ReactDOM from "react-dom/client";
 import { CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import App from "./App";
@@ -15,17 +15,21 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: "'Nunito', 'Segoe UI', sans-serif",
-    fontSize: 18,
+    fontSize: 19,
     button: {
       textTransform: "none",
-      fontWeight: 700,
+      fontWeight: 800,
+      letterSpacing: 0,
     },
   },
   components: {
     MuiButton: {
+      defaultProps: {
+        disableElevation: true,
+      },
       styleOverrides: {
         root: {
-          fontSize: "1.05rem",
+          fontSize: "1.02rem",
         },
       },
     },
@@ -33,6 +37,23 @@ const theme = createTheme({
       styleOverrides: {
         label: {
           fontSize: "1.05rem",
+          paddingLeft: 14,
+          paddingRight: 14,
+        },
+      },
+    },
+    MuiIconButton: {
+      styleOverrides: {
+        root: {
+          color: "#2a3040",
+        },
+      },
+    },
+    MuiAlert: {
+      styleOverrides: {
+        message: {
+          fontSize: "1rem",
+          lineHeight: 1.35,
         },
       },
     },
