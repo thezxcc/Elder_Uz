@@ -3,6 +3,27 @@
 **ElderUZ** is a community platform for older adults in Uzbekistan.
 It helps seniors discover local events, join group classes, and stay socially connected through a clean, multilingual, and mobile-first experience.
 
+## Project Background: Technovation Girls 2026
+
+ElderUZ was built by our team for participation in the **Technovation Girls 2026** competition.
+
+We chose this challenge because its mission and format align directly with our goals:
+- solve a real problem in the local community using technology;
+- build a practical mobile/web product, not just an idea;
+- combine technology with entrepreneurship, pitching, and impact thinking;
+- create an inclusive solution that is useful in everyday life.
+
+In our case, the focus is social inclusion for older adults: helping seniors find nearby activities, classes, and trusted contacts through a simple and accessible interface.
+
+### Official Technovation Links
+
+- Technovation (official organization): [technovation.org](https://www.technovation.org/)аш
+- Technovation About page: [technovation.org/about](https://www.technovation.org/about/)
+- Technovation Girls (official challenge site): [technovationchallenge.org](https://technovationchallenge.org/)
+- Competition overview (rules, structure, timeline): [technovationchallenge.org/competition](https://technovationchallenge.org/competition/)
+- Curriculum (app building, AI, entrepreneurship, pitching): [technovationchallenge.org/technovation-curriculum](https://technovationchallenge.org/technovation-curriculum/)
+- Official participant platform (registration/submission): [my.technovationchallenge.org](https://my.technovationchallenge.org/)
+
 ## Why ElderUZ
 
 Many seniors face barriers when trying to find meaningful social activities online.
