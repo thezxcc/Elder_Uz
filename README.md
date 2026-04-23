@@ -1,40 +1,15 @@
 # ElderUZ
 
-[![Python](https://img.shields.io/badge/Python-3.14.3-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-24.14.1-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.116.1-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react&logoColor=1E1E1E)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-5.4.10-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
-[![License](https://img.shields.io/badge/License-Private-lightgrey)](#)
-
 **ElderUZ** is a community platform for older adults in Uzbekistan.
 It helps seniors discover local events, join group classes, and stay socially connected through a clean, multilingual, and mobile-first experience.
 
-## Product Walkthrough (GIF)
+## Product Walkthrough
 
-<p align="center">
-  <img src="docs/media/elderuz-demo-short.gif" alt="ElderUZ short walkthrough" width="360" />
-</p>
+![ElderUZ short walkthrough](docs/media/elderuz-demo-short.gif)
 
-<p align="center"><i>Short in-app walkthrough: Events, details, classes, and nearby flow.</i></p>
+Short in-app walkthrough: Events, details, classes, and nearby flow.
 
-## Demo Screens
-
-<table>
-  <tr>
-    <td><img src="docs/screenshots/events-feed.svg" alt="Events feed" width="280"/></td>
-    <td><img src="docs/screenshots/event-details.svg" alt="Event details" width="280"/></td>
-  </tr>
-  <tr>
-    <td><img src="docs/screenshots/group-classes.svg" alt="Group classes" width="280"/></td>
-    <td><img src="docs/screenshots/nearby-feed.svg" alt="Nearby feed" width="280"/></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="docs/screenshots/district-picker.svg" alt="District picker" width="300"/></td>
-  </tr>
-</table>
-
-> Replace placeholder SVG files in `docs/screenshots` with your real screenshots using the same filenames for instant update.
+> Optimized for GitHub: lightweight GIF (~195 KB) for faster loading.
 
 ## Why ElderUZ
 
@@ -83,14 +58,8 @@ ElderUZ addresses this with:
 |   |-- package.json
 |   `-- vite.config.js
 |-- docs
-|   |-- media
-|   |   `-- elderuz-demo-short.gif
-|   `-- screenshots
-|       |-- events-feed.svg
-|       |-- event-details.svg
-|       |-- group-classes.svg
-|       |-- nearby-feed.svg
-|       `-- district-picker.svg
+|   `-- media
+|       `-- elderuz-demo-short.gif
 `-- app.db
 ```
 
@@ -202,10 +171,3 @@ Fix: check your `uvicorn` terminal and port configuration.
 Use custom ports:
 - backend: `--port 8001`
 - frontend: `npm run dev -- --port 5174`
-
-## Next README Upgrades
-
-- Add a short GIF walkthrough
-- Add deployment section (Docker or cloud)
-- Add contribution guide (`CONTRIBUTING.md`)
-- Add explicit license file if this becomes open source
