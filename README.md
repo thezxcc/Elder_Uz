@@ -1,15 +1,7 @@
-# ElderUZ
+﻿# ElderUZ
 
 **ElderUZ** is a community platform for older adults in Uzbekistan.
 It helps seniors discover local events, join group classes, and stay socially connected through a clean, multilingual, and mobile-first experience.
-
-## Product Walkthrough
-
-![ElderUZ short walkthrough](docs/media/elderuz-demo-short.gif)
-
-Short in-app walkthrough: Events, details, classes, and nearby flow.
-
-> Optimized for GitHub: lightweight GIF (~195 KB) for faster loading.
 
 ## Why ElderUZ
 
